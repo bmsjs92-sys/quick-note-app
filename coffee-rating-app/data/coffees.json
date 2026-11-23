@@ -1,0 +1,50 @@
+[
+  {
+    "id": "chikmagalur-ratnagiri",
+    "name": "Chikmagalur Ratnagiri Estate",
+    "roast": "Medium",
+    "origin": "Karnataka",
+    "notes": "Jaggery, roasted almond, dark cocoa",
+    "votes": 24
+  },
+  {
+    "id": "coorg-kalledevarapura",
+    "name": "Coorg Kalledevarapura",
+    "roast": "Light-Medium",
+    "origin": "Karnataka",
+    "notes": "Sweet orange, honey, mild spice",
+    "votes": 21
+  },
+  {
+    "id": "araku-valley-selection",
+    "name": "Araku Valley Micro-Lot",
+    "roast": "Light",
+    "origin": "Andhra Pradesh",
+    "notes": "Wild berries, cane sugar, floral finish",
+    "votes": 37
+  },
+  {
+    "id": "bababudangiri-peaberry",
+    "name": "Bababudangiri Peaberry",
+    "roast": "Medium-Dark",
+    "origin": "Karnataka",
+    "notes": "Dark chocolate, cardamom, rich crema",
+    "votes": 18
+  },
+  {
+    "id": "monsooned-malabar-aa",
+    "name": "Monsooned Malabar AA",
+    "roast": "Dark",
+    "origin": "Kerala / Karnataka",
+    "notes": "Toasted grain, woody spice, low acidity",
+    "votes": 14
+  },
+  {
+    "id": "biligirirangan-hills",
+    "name": "BR Hills Estate Blend",
+    "roast": "Medium",
+    "origin": "Karnataka",
+    "notes": "Caramel, nutmeg, smooth body",
+    "votes": 17
+  }
+]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoastRank | Coffee Blend Voting</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <h1>RoastRank</h1>
+      <p>Vote for your favorite single-origin coffee blends and watch the leaderboard update live.</p>
+    </div>
+  </header>
+
+  <main class="container layout">
+    <section class="catalog">
+      <div class="toolbar">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search blends, origins, or tasting notes..."
+          aria-label="Search coffee blends"
+        />
+        <select id="roast-filter" aria-label="Filter by roast level">
+          <option value="all">All Roasts</option>
+          <option value="light">Light</option>
+          <option value="light-medium">Light-Medium</option>
+          <option value="medium">Medium</option>
+          <option value="medium-dark">Medium-Dark</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+
+      <div id="coffee-grid" class="coffee-grid"></div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="leaderboard-card">
+        <h2>Top-Rated Blends</h2>
+        <ol id="leaderboard-list" class="leaderboard-list"></ol>
+      </div>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
